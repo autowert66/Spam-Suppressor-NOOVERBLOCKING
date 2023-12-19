@@ -1,4 +1,4 @@
-#last-update:2023-12-16
+#last-update:2023-12-18
 000webhostapp.fr
 000webhost.fr
 01labanquepostale.fr
@@ -1976,6 +1976,7 @@ amendes-gov.fr
 amendesgov.fr
 amendes-iledefrance.fr
 amendes-impaye.fr
+amendesinfodgif.fr
 amendes-info.fr
 amendes-infogouv.fr
 amendes-info-gouvs.fr
@@ -2495,6 +2496,8 @@ app-monespace-vitale.fr
 appneosurf.fr
 app-netfiix.fr
 app-netfix.fr
+app-net-flix.fr
+app-netflix.fr
 app-netflx.fr
 app-nickeel.fr
 app-nickel.fr
@@ -2983,6 +2986,7 @@ auchan-groupe.fr
 auchangroupe.fr
 auchan-hypemarche.fr
 auchanhypermarket.fr
+auchani.fr
 auchan-international.fr
 auchanmagasin.fr
 auchanmobile.fr
@@ -3828,6 +3832,7 @@ by-sfr.fr
 c0nforama.fr
 c3k5k.yt
 ca3-impot-dgfip.fr
+caabaia.fr
 ca-activation.fr
 ca-altantique-vendee.fr
 ca-annulation-paiement.fr
@@ -4788,6 +4793,7 @@ chronopostcode.fr
 chronopost-coiis.fr
 chronopostcoiis.fr
 chronopost-colie.fr
+chronopostcolisacheminement.fr
 chronopost-colischarge.fr
 chronopost-colisdistribution.fr
 chronopostcolis-douan.fr
@@ -6019,6 +6025,7 @@ contact-amzon.fr
 contact-assurance-maladie.fr
 contact-ca-supporttechniqueetservice.fr
 contact-chronopost.fr
+contactchronpost.fr
 contactclients.fr
 contact-colis-livraison.fr
 contactconseilclient.fr
@@ -6049,6 +6056,7 @@ contacts-sg.fr
 contact-vitale.fr
 conta-milenniumbcp.fr
 contentieuxcreditservices.fr
+contestation-amende.fr
 contestation-ants.fr
 contest-sg-info.fr
 contra2883.fr
@@ -7968,6 +7976,7 @@ expedition-colis-chronopost.fr
 expedition-colis.fr
 expedition-colissimo.fr
 expedition-dhl.fr
+expedition-relivraison.fr
 expeditions-fnac.fr
 expert-chronopost.fr
 expiration-appli.fr
@@ -8556,6 +8565,7 @@ fr-startpeople.fr
 fr-stbmateriaux.fr
 fr-stmicroelectronics.fr
 fr-stmmicroelectronics.fr
+fr-stoneisland-outlet.fr
 fr-stormshield.fr
 fr-sumitomochemicalagroeuropesas.fr
 fr-supportnetflix.fr
@@ -8605,6 +8615,7 @@ g7-taxicoq.fr
 g-7taxi.fr
 g7taxi-officiel.fr
 g7-taxi.paris
+g-7-taxi-paris.fr
 g7taxi-reservations.fr
 g7-taxi-service.fr
 g7taxi-service.fr
@@ -11292,6 +11303,7 @@ loginconnect.fr
 login-disney.fr
 login-disneyplus.fr
 login-epargne.fr
+login-espace-orange.fr
 login-gebuhrenfrei.fr
 loginleboncoin.fr
 loginlive.fr
@@ -11534,6 +11546,7 @@ macifverif.fr
 macil.fr
 ma-cledigital-bnpparibas.fr
 ma-cledigitale-bnpparibas.fr
+macolischronopost.fr
 macompte.fr
 ma-confirmation-participation.fr
 ma-contavention.fr
@@ -12650,6 +12663,7 @@ monopflix.fr
 monopris.fr
 monoprixn.fr
 mon-paiement-antai.fr
+mon-paiement-chronopost.fr
 mon-paiement-contravention.fr
 monpassenligne.fr
 monpass-secgeneral.fr
@@ -13904,6 +13918,7 @@ outlet-asics.fr
 outletasicsfrance.fr
 outletcarhartt.fr
 outlet-jacquemus.fr
+outlet-promos-2024.fr
 outletralphlauren.fr
 outletvictoriasecret.fr
 outliok.fr
@@ -14294,6 +14309,7 @@ pay-cybertek.fr
 pay-dsp2.fr
 payement-amende.fr
 payement-amendes.fr
+payement-antai.fr
 payement-leboncoin.fr
 payement-netflix.fr
 payements-amendes.fr
@@ -15060,6 +15076,7 @@ recrutementmissionlocale.fr
 recrutements-audi.fr
 rectorat-strasbourg.fr
 reculyfpay.fr
+recupaiementlebonsecur.fr
 recupayement-leboncoin.fr
 recupaylbinstantsecur.fr
 recup-bachaplib.fr
@@ -15108,6 +15125,7 @@ redirection-livraison.fr
 redirection-moncolis.fr
 redirection-netflx.fr
 redirection-ntflx.fr
+redirectionreglement.fr
 redirections-ameli.fr
 redirection-servicefr.fr
 redirection-servicesante.fr
@@ -15910,6 +15928,7 @@ sctgenerale.fr
 scure-transf.fr
 scvitale.fr
 scwharzkopf.fr
+sdchronopostenoel.fr
 sdfjq.yt
 sdfmq.yt
 sdfzn.yt
@@ -16200,6 +16219,7 @@ securisepaiementleboncoin.fr
 securisepaiements.fr
 securisepayleboncoin.fr
 securisermacarte.fr
+securiser-moncompte.fr
 securiteabobo.fr
 securiteabofrance.fr
 securite-agricole.fr
@@ -16243,6 +16263,7 @@ securite-particulier-sg.fr
 securitepass-sg.fr
 securiter-critair.fr
 securite-recharge.fr
+securiterenforcee.fr
 securite-routieregouv.fr
 securiteroutieregouv.fr
 securite-santevitale.fr
@@ -16305,6 +16326,7 @@ secuvitaleinfo.fr
 secvitaleinfo.fr
 seebox.fr
 seezeit.fr
+sefphora.fr
 segens.fr
 selarbiosites.fr
 selectrnic.fr
@@ -16425,6 +16447,7 @@ service-cgu-chr0n0-post.fr
 service-changement-esim.fr
 service-chrono-colis.fr
 service-chrono.fr
+servicechronoposte.fr
 service-chronopost.fr
 servicechronopost.fr
 service-chrono-post-livraison.fr
@@ -18162,6 +18185,7 @@ themoviedb.fr
 thenewswire.fr
 thenorth-face.fr
 thenorthfacefrance.fr
+thenorthfaceoutfit.fr
 the-northfaceoutlet.fr
 thenorthface-outlet.fr
 thenorthfaceoutlet.fr
@@ -18373,6 +18397,7 @@ tuperware.fr
 turfomani.fr
 turtlediary.fr
 tuue.fr
+tv-abonnement.fr
 tvndo-sg.fr
 tvorange.fr
 tv-prime.fr
@@ -18446,6 +18471,7 @@ unillians.fr
 uniondespompier13.fr
 uni-paris1.fr
 uni-paris-diderot.fr
+uniqleo.fr
 uniqloenfrance.fr
 uniqlofrance.fr
 uniqlofrancesoldes.fr
@@ -18537,6 +18563,7 @@ ups-access.fr
 ups-france.fr
 upsfrance.fr
 ups-homedelivery.fr
+ups-info.fr
 ups-livraison.fr
 ups-logistics.fr
 ups-ma-livraison.fr
@@ -19145,6 +19172,7 @@ web-assurances-maladie.fr
 web-assurances-maladies.fr
 webatic.fr
 web-chronopost.fr
+webchronopost.fr
 web-credit-agricole.fr
 web-disney.fr
 web-dlsneyplus.fr
@@ -19800,6 +19828,7 @@ xn--scurit-banque-dsp2-bwbf.fr
 xn--scurit-banque-france-b2bf.fr
 xn--scurit-caisse-epargne-b5bf.fr
 xn--scurit-carte-bebf.fr
+xn--scurit-confidentialit-socit-gnral-b6cfpfbcb.fr
 xn--scuritesociale-bkb.fr
 xn--scurite-sociale-bnb.fr
 xn--scurit-info-bbbf.fr
