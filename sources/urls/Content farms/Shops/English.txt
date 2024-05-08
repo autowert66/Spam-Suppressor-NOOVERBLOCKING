@@ -1,3 +1,4 @@
 gg.deals/blog
 keychron.com/blogs
-https://newtralchair.com/blogs
+newtralchair.com/blogs
+https://kineticlabs.com/blog
