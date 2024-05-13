@@ -11,4 +11,5 @@ lovethegarden.com/*/artykul
 japanobjects.com/features
 shop.japanobjects.com/*/blogs
 cromaskincareshop.com/blog
-https://www.green-shop.ch/*/blog
+green-shop.ch/*/blog
+https://steelcase.com/blogs
