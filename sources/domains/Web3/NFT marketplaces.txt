@@ -10,4 +10,5 @@ artsy.net
 rarible.com
 magiceden.io
 looksrare.org
-https://drc-20.org/
+drc-20.org
+https://botanix-genesis-marketplace.vercel.app/
