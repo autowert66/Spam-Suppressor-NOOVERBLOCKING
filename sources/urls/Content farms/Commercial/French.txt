@@ -1,4 +1,5 @@
-https://www.cybertek.fr/blog
+https://www.2htransports.com/blog
+cybertek.fr/blog
 codeur.com/blog
 digora.com/*/blog
 mma.fr/zeroblabla
@@ -97,7 +98,6 @@ monchanvre.fr/blog
 grosbill.com/blog
 rueducommerce.fr/conseil
 inmac-wstore.com/guides-achat-*
-cybertek.fr/blog
 materiel.net/guide-achat
 eizo.fr/*/blog
 darty.com/darty-et-vous
