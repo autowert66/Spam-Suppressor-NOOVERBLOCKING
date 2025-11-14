@@ -8,4 +8,5 @@ ubuntupit.com
 leveluptalk.com
 linuxvox.com
 noodlemagazineo.com
-https://oneangrygamer.net/
+oneangrygamer.net
+samepassage.org
