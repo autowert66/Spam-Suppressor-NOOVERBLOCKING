@@ -1,6 +1,6 @@
 flappybird.org
-https://griffingp.com/ggp-portfolio/
-https://www.kryptomon.co/
+griffingp.com # https://www.youtube.com/watch?v=xJRk8e0uqtA
+kryptomon.co
 
 # Ubisoft
 quartz.ubisoft.com
