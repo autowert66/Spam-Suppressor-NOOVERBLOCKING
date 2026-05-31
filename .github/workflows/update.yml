@@ -7,10 +7,12 @@ on:
       - '!sources/imports/**'
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   update:
     name: Update blocklists
-
     runs-on: ubuntu-latest
 
     steps:
@@ -21,11 +23,21 @@ jobs:
         python-version: "3.10"
     - name: Run update
       run: ./scripts/update.sh
-    - name: Commit and push
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add -A
-        if git commit -m "Update blocklists"; then
-          git push
-        fi
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: release-${{ github.run_number }}
+        name: Blocklist Release ${{ github.run_number }}
+        make_latest: true
+        files: |
+          domains.txt
+          ublacklist.txt
+          adblock.txt
+          hosts.txt
+          hosts_ipv6.txt
+          dnsmasq.txt
+          pdnsd.txt
+          unbound.txt
+          mastodon.csv
+          fediblockhole.csv
+          fediverse_domains.txt

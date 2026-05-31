@@ -6,7 +6,7 @@ A data repository that generates multiple blocklist formats (uBlacklist, AdBlock
 
 ## Do not edit generated files
 
-All `.txt` and `.csv` files at the repo root (`domains.txt`, `ublacklist.txt`, `adblock.txt`, `hosts.txt`, `hosts_ipv6.txt`, `dnsmasq.txt`, `pdnsd.txt`, `unbound.txt`, `mastodon.csv`, `fediblockhole.csv`) are **generated**. Edit files under `sources/` only.
+The blocklist files (`domains.txt`, `ublacklist.txt`, `adblock.txt`, `hosts.txt`, `hosts_ipv6.txt`, `dnsmasq.txt`, `pdnsd.txt`, `unbound.txt`, `mastodon.csv`, `fediblockhole.csv`, `fediverse_domains.txt`) are **generated** and are no longer committed to the repository. They are published as GitHub Release assets. Edit files under `sources/` only.
 
 ## Source layout
 
@@ -27,7 +27,7 @@ All `.txt` and `.csv` files at the repo root (`domains.txt`, `ublacklist.txt`, `
 - `./scripts/update.sh` — normalizes source files, combines them, prunes offline domains, and regenerates all root-level blocklists. Requires `bash` and `python`.
 - `./scripts/import.sh` — downloads external lists, cleans them, applies the allowlist, and copies them to `sources/domains/_imported/`. Requires `bash`, `curl`, and `python`.
 
-**Command order for imports:** run `./scripts/import.sh` *before* `./scripts/update.sh` (the CI `import.yml` workflow does this automatically).
+**Command order for imports:** run `./scripts/import.sh` *before* `./scripts/update.sh` if importing external lists locally.
 
 ## Contributing rules
 
@@ -53,9 +53,11 @@ The allowlist (`sources/imports/allowlist.txt`) removes false positives from imp
 
 ## CI behavior
 
-- `.github/workflows/update.yml` triggers on pushes to `sources/**.txt` (excluding `sources/imports/**`), runs `./scripts/update.sh`, and auto-commits.
-- `.github/workflows/import.yml` triggers on pushes to `sources/imports/**.txt` or on a cron schedule, runs `./scripts/import.sh` then `./scripts/update.sh`, and auto-commits.
+- `.github/workflows/update.yml` triggers on pushes to `sources/**.txt` (excluding `sources/imports/**`), runs `./scripts/update.sh`, and creates a GitHub Release with the generated blocklists as assets.
+- There is no automated import workflow; run `./scripts/import.sh` manually if you need to refresh external lists.
 
 ## Verification
 
-There is no automated test suite. Verify changes by running `./scripts/update.sh` locally and inspecting the generated root files. If you run `import.sh`, expect `sources/imports/original/` and `sources/imports/modified/` to change.
+There is no automated test suite. Verify changes by running `./scripts/update.sh` locally and inspecting the generated files. Generated blocklists are also available on the latest GitHub Release.
+
+**Note:** the `sources/domains/_imported/`, `sources/imports/original/`, and `sources/imports/modified/` directories were removed when the automated import workflow was deleted. External lists are no longer merged automatically.
