@@ -2,13 +2,13 @@
 
 ## What this repo is
 
-A data repository that generates multiple blocklist formats (uBlacklist, AdBlock, Hosts, DNS, Fediverse CSV, etc.) from source files in `sources/`. There is no package manager, test suite, or build system beyond bash + Python 3 scripts.
+A data repository that generates multiple blocklist formats (uBlacklist, AdBlock, Hosts, DNS, etc.) from source files in `sources/`. There is no package manager, test suite, or build system beyond bash + Python 3 scripts.
 
 ## Do not edit generated files
 
-The blocklist files (`domains.txt`, `ublacklist.txt`, `adblock.txt`, `hosts.txt`, `hosts_ipv6.txt`, `dnsmasq.txt`, `pdnsd.txt`, `unbound.txt`, `mastodon.csv`, `fediblockhole.csv`, `fediverse_domains.txt`) are **generated** and are no longer committed to the repository. They are published as GitHub Release assets.
+The blocklist files (`domains.txt`, `ublacklist.txt`, `adblock.txt`, `hosts.txt`, `hosts_ipv6.txt`, `dnsmasq.txt`, `pdnsd.txt`, `unbound.txt`) are **generated** and are no longer committed to the repository. They are published as GitHub Release assets.
 
-The combined source lists (`sources/domains.txt`, `sources/urls.txt`, `sources/pages.txt`, `sources/tlds.txt`, `sources/expressions.txt`, `sources/regex.txt`, `sources/fediverse_domains.txt`) are also generated and must not be committed. All are listed in `.gitignore`.
+The combined source lists (`sources/domains.txt`, `sources/urls.txt`, `sources/pages.txt`, `sources/tlds.txt`, `sources/expressions.txt`, `sources/regex.txt`) are also generated and must not be committed. All are listed in `.gitignore`.
 
 Edit files under `sources/` subdirectories only.
 
@@ -31,7 +31,7 @@ Edit files under `sources/` subdirectories only.
 - Add one entry per line in `.txt` files inside `sources/domains/` (or the relevant `sources/` subdirectory).
 - Use subfolders and `.txt` filenames to organize by category.
 - Use inline comments (`#`) and `.md` files in the same folder for documentation and references.
-- Fediverse domains: put them in `.txt` files with `fediverse` in the name (e.g. `Bad Fediverse.txt`) so they are included in `mastodon.csv` and `fediblockhole.csv`.
+- Use inline comments (`#`) and `.md` files in the same folder for documentation and references.
 
 ## Importing external lists
 

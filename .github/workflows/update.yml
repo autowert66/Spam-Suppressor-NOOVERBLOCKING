@@ -38,6 +38,3 @@ jobs:
           dnsmasq.txt
           pdnsd.txt
           unbound.txt
-          mastodon.csv
-          fediblockhole.csv
-          fediverse_domains.txt

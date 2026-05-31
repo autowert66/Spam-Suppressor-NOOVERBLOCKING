@@ -25,8 +25,6 @@ find ./sources/domains ./sources/urls ./sources/tlds -type f -iname "*.txt" -exe
 ## Combine all sources into lists
 ### Domains
 find ./sources/domains -type f -iname "*.txt" -exec cat {} \; > ./sources/domains.txt
-### Fediverse domains
-find ./sources/domains -type f -iname "*fediverse*.txt" -exec cat {} \; > ./sources/fediverse_domains.txt
 ### URLs
 find ./sources/urls -type f -iname "*.txt" -exec cat {} \; > ./sources/urls.txt
 ### Pages
@@ -74,10 +72,4 @@ python scripts/adblock.py > adblock.txt
 ### uBlacklist
 python scripts/ublacklist.py > ublacklist.txt
 
-## Generate Fediverse blocklists
-### Domains
-python scripts/fediverse_domains.py > fediverse_domains.txt
-### Mastodon
-python scripts/mastodon.py > mastodon.csv
-### FediBlockHole
-python scripts/fediblockhole.py > fediblockhole.csv
+

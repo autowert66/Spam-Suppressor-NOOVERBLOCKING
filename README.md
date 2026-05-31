@@ -47,11 +47,6 @@ Released into the public domain ([WTFPL](LICENSE)).
 - **pdnsd**: use [`pdnsd.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/pdnsd.txt)
 - **Unbound**: use [`unbound.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/unbound.txt)
 
-### Fediverse
-
-- **Mastodon**: import [`mastodon.csv`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/mastodon.csv)
-- **Fediblockhole**: import [`fediblockhole.csv`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/fediblockhole.csv) ([docs](https://github.com/eigenmagic/fediblockhole))
-
 ## Download
 
 | Format | File | Supports |
@@ -62,8 +57,6 @@ Released into the public domain ([WTFPL](LICENSE)).
 | **Dnsmasq** | [`dnsmasq.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/dnsmasq.txt) | Domains, TLDs |
 | **pdnsd** | [`pdnsd.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/pdnsd.txt) | Domains, TLDs |
 | **Unbound** | [`unbound.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/unbound.txt) | Domains, TLDs |
-| **Mastodon** | [`mastodon.csv`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/mastodon.csv) | Fediverse domains |
-| **Fediblockhole** | [`fediblockhole.csv`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/fediblockhole.csv) | Fediverse domains |
 | **Domains only** | [`domains.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/domains.txt) | Domains |
 
 All files are available on the [latest release](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest).
@@ -72,9 +65,8 @@ All files are available on the [latest release](https://github.com/autowert66/Sp
 
 1. Add one entry per line to `.txt` files in `sources/domains/` (or the relevant `sources/` subdirectory).
 2. Use subfolders and filenames to organize by category.
-3. Fediverse domains should go in `.txt` files with `fediverse` in their name so they are included in the Fediverse blocklists.
-4. Push changes to the `sources` folder; GitHub Actions will regenerate the blocklists and publish a release.
-5. Alternatively, [open an issue](../../issues) with URLs to add or remove.
+3. Push changes to the `sources` folder; GitHub Actions will regenerate the blocklists and publish a release.
+4. Alternatively, [open an issue](../../issues) with URLs to add or remove.
 
 ### Build locally
 
