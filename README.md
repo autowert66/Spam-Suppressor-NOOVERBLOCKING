@@ -1,4 +1,12 @@
-# Super SEO Spam Suppressor (SSSS)
+> [!WARNING]
+> Fork of [NotaInutilis/Super-SEO-Spam-Suppressor](https://github.com/NotaInutilis/Super-SEO-Spam-Suppressor/),
+> a strongly political and radical repository.
+>
+> This fork attempts to clean up the most notable overblocking instances
+> (e.g. the `*.ai` TLD), but might not sanitize everything.
+> It does not reflect the current author's views.
+
+# Super SEO Spam Suppressor (Less Overblocking)
 
 A blocklist targeting websites abusing SEO tactics: junk news, content farms, scams, impersonations, and other search-engine spam.
 
