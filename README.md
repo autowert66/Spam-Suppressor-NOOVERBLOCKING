@@ -17,7 +17,7 @@ Released into the public domain ([WTFPL](LICENSE)).
       <img height="58" src="https://i.imgur.com/oGxig2F.png" alt="Chrome Web Store">
     </picture>
   </a>
-  <a href="https://ublacklist.github.io/rulesets/subscribe?url=https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt">
+  <a href="https://ublacklist.github.io/rulesets/subscribe?url=https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt">
     <picture>
       <source srcset="assets/badge-ublacklist-dark.png" media="(prefers-color-scheme: dark)">
       <img height="58" src="assets/badge-ublacklist-light.png" alt="Add to uBlacklist">
@@ -29,8 +29,8 @@ Released into the public domain ([WTFPL](LICENSE)).
 
 ### Browser extensions
 
-- **uBlacklist**: subscribe to [`ublacklist.txt`](https://ublacklist.github.io/rulesets/subscribe?url=https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) ([docs](https://github.com/iorate/ublacklist))
-- **AdBlock Plus / AdGuard**: subscribe to [`adblock.txt`](https://subscribe.adblockplus.org/?location=https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt)
+- **uBlacklist**: subscribe to [`ublacklist.txt`](https://ublacklist.github.io/rulesets/subscribe?url=https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) ([docs](https://github.com/iorate/ublacklist))
+- **AdBlock Plus / AdGuard**: subscribe to [`adblock.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt)
 
 ### DNS / network level
 
@@ -48,7 +48,7 @@ Released into the public domain ([WTFPL](LICENSE)).
 
 | Format | File | Supports |
 |--------|------|----------|
-| **uBlacklist** | [`ublacklist.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) | Domains, TLDs, URLs, pages, expressions, regex |
+| **uBlacklist** | [`ublacklist.txt`](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) | Domains, TLDs, URLs, pages, expressions, regex |
 | **AdBlock Plus** | [`adblock.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt) | Domains, TLDs, URLs, pages, regex |
 | **Hosts** | [`hosts.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/hosts.txt) / [`hosts_ipv6.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/hosts_ipv6.txt) | Domains |
 | **Dnsmasq** | [`dnsmasq.txt`](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/dnsmasq.txt) | Domains, TLDs |
