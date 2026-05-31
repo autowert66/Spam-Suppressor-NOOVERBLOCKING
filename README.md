@@ -6,7 +6,7 @@
 > (e.g. the `*.ai` TLD), but might not sanitize everything.
 > It does not reflect the current author's views.
 
-# Super SEO Spam Suppressor (Less Overblocking)
+# SEO Spam Suppressor (Less Overblocking)
 
 A blocklist targeting websites abusing SEO tactics: junk news, content farms, scams, impersonations, and other search-engine spam.
 
