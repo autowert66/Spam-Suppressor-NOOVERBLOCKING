@@ -8,7 +8,3 @@ forourposterity.com
 synthographie.fr
 boutique-wp.fr
 hypnozh.com
-
-
-# Investors
-a16z.com
