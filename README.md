@@ -28,53 +28,53 @@ This blocklist is left in the [public domain (Do What The Fuck You Want To Publi
 | [Unbound](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/tree/main?tab=readme-ov-file#unbound-format)           | Commented                                                                                                             | ✓                                                                                         | ✓                                                                                         |                                                                                           |                                                                                           |                                                                                        |                                                                                                |
 | [Mastodon](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/tree/main?tab=readme-ov-file#mastodon)                | [CSV](https://github.com/eigenmagic/fediblockhole#mastodon-v41-csv-format)                                            | ✓ Fediverse only                                                                          |                                                                                           |                                                                                           |                                                                                           |                                                                                        |                                                                                                |
 | [Fediblockhole](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/tree/main?tab=readme-ov-file#fediblockhole)      | [CSV](https://github.com/eigenmagic/fediblockhole#csv-format)                                                         | ✓ Fediverse only                                                                          |                                                                                           |                                                                                           |                                                                                           |                                                                                        |                                                                                                |
-| [Domains](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/domains.txt)                                 | Commented                                                                                                             | ✓                                                                                         |                                                                                           |                                                                                           |                                                                                           |                                                                                        |                                                                                                |
+| [Domains](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/domains.txt)                                 | Commented                                                                                                             | ✓                                                                                         |                                                                                           |                                                                                           |                                                                                           |                                                                                        |                                                                                                |
 
 ## Browser extensions
 
 ### uBlacklist syntax
 
-[Blocklist in uBlacklist format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) to use with [uBlacklist](https://github.com/iorate/ublacklist). It filters blocked sites from results on [several search engines](https://github.com/iorate/ublacklist?tab=readme-ov-file#supported-search-engines).
+[Blocklist in uBlacklist format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) to use with [uBlacklist](https://github.com/iorate/ublacklist). It filters blocked sites from results on [several search engines](https://github.com/iorate/ublacklist?tab=readme-ov-file#supported-search-engines).
 
-[Click here to subscribe.](https://ublacklist.github.io/rulesets/subscribe?url=https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) Note that subscription links need to be enabled for this to work.
+[Click here to subscribe.](https://ublacklist.github.io/rulesets/subscribe?url=https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/ublacklist.txt) Note that subscription links need to be enabled for this to work.
 
 ### AdBlock Plus syntax
 
-[Blocklist in AdBlock format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt) to use with an adblocker ([uBlock Origin](https://ublockorigin.com), [Adguard](https://adguard.com)…) or Adguard Home. It uses a [strict blocking rule](https://github.com/gorhill/uBlock/wiki/Strict-blocking) to block access to those sites on your browser.
+[Blocklist in AdBlock format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt) to use with an adblocker ([uBlock Origin](https://ublockorigin.com), [Adguard](https://adguard.com)…) or Adguard Home. It uses a [strict blocking rule](https://github.com/gorhill/uBlock/wiki/Strict-blocking) to block access to those sites on your browser.
 
-[Click here to subscribe.](https://subscribe.adblockplus.org/?location=https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt)
+[Click here to subscribe.](https://subscribe.adblockplus.org/?location=https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/adblock.txt)
 
 ## DNS blockers
 
 ### Hosts format
 
-[Blocklist in Hosts format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/hosts.txt) to use in a [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) file or [Pi-hole](https://pi-hole.net/).
+[Blocklist in Hosts format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/hosts.txt) to use in a [hosts](https://en.wikipedia.org/wiki/Hosts_(file)) file or [Pi-hole](https://pi-hole.net/).
 
-[IPv6 version](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/hosts_ipv6.txt).
+[IPv6 version](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/hosts_ipv6.txt).
 
 **Known issue:** [Firefox's DNS over HTTPS option bypasses the computer's hosts file ruleset.](https://bugzilla.mozilla.org/show_bug.cgi?id=1453207)
 
 ### Dnsmasq format
 
-[Blocklist in Dnsmasq format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/dnsmasq.txt) to use with the [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) DNS server software.
+[Blocklist in Dnsmasq format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/dnsmasq.txt) to use with the [Dnsmasq](https://thekelleys.org.uk/dnsmasq/doc.html) DNS server software.
 
 ### pdnsd format
 
-[Blocklist in pdnsd format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/pdnsd.txt) to use with the [pdnsd](https://wiki.archlinux.org/title/Pdnsd) caching DNS proxy server software.
+[Blocklist in pdnsd format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/pdnsd.txt) to use with the [pdnsd](https://wiki.archlinux.org/title/Pdnsd) caching DNS proxy server software.
 
 ### Unbound format
 
-[Blocklist in Unbound configuration format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/unbound.txt) to use with the [Unbound](https://nlnetlabs.nl/projects/unbound/) validating, recursive, caching DNS resolver.
+[Blocklist in Unbound configuration format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/unbound.txt) to use with the [Unbound](https://nlnetlabs.nl/projects/unbound/) validating, recursive, caching DNS resolver.
 
 ## Fediverse formats
 
 ### Mastodon
 
-[Blocklist in Mastodon format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/mastodon.csv) to use with [Mastodon](https://joinmastodon.org/) and other federated services. It will defederate from blocked instances.
+[Blocklist in Mastodon format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/mastodon.csv) to use with [Mastodon](https://joinmastodon.org/) and other federated services. It will defederate from blocked instances.
 
 ### Fediblockhole
 
-[Blocklist in FediBlockHole format](https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/fediblockhole.csv) to use with the [FediBlockHole](https://github.com/eigenmagic/fediblockhole) tool for Mastodon. It will defederate from blocked instances.
+[Blocklist in FediBlockHole format](https://gh-proxy.com/https://github.com/autowert66/Spam-Suppressor-NOOVERBLOCKING/releases/latest/download/fediblockhole.csv) to use with the [FediBlockHole](https://github.com/eigenmagic/fediblockhole) tool for Mastodon. It will defederate from blocked instances.
 
 ## How to contribute
 
